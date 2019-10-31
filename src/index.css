@@ -11,3 +11,194 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#mylogo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 5px;
+  border: 3px solid #87cc90;
+}
+#myname {
+  display: inline-block;
+}
+#github-icon {
+  width: 30px;
+  height: 30px;
+}
+#skill-box {
+  position: relative;
+  display: inline-block;
+  margin-top: 15px;
+  padding: 16px;
+  min-width: 400px;
+  max-width: 100%;
+  text-align: center;
+  color: #555;
+  font-size: 16px;
+  background: #FFF;
+  border: solid 3px #00bfff;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+#skill-box:before {
+  content: "";
+  position: absolute;
+  top: -24px;
+  left: 27%;
+  margin-left: -8px;
+  border: 12px solid transparent;
+  border-bottom: 12px solid #FFF;
+  z-index: 2;
+}
+#skill-box:after {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 27%;
+  margin-left: -10px;
+  border: 14px solid transparent;
+  border-bottom: 14px solid #00bfff;
+  z-index: 1;
+}
+#skill-box p {
+  margin: 0;
+  padding: 0;
+}
+#skills-ul {
+  display: grid;
+  grid-template-columns: repeat(3,130px);
+}
+#skills-li {
+  width: 100%;
+  text-align: left;
+  font-size: 16px;
+  padding: 8px 0;
+  color: #343434;
+}
+
+
+
+#product-box {
+  position: relative;
+  display: inline-block;
+  margin-top: 15px;
+  padding: 16px;
+  min-width: 400px;
+  max-width: 100%;
+  text-align: center;
+  color: #555;
+  font-size: 16px;
+  background: #FFF;
+  border: solid 3px #00bfff;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+#product-box:before {
+  content: "";
+  position: absolute;
+  top: -24px;
+  left: 34%;
+  margin-left: -8px;
+  border: 12px solid transparent;
+  border-bottom: 12px solid #FFF;
+  z-index: 2;
+}
+#product-box:after {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 34%;
+  margin-left: -10px;
+  border: 14px solid transparent;
+  border-bottom: 14px solid #00bfff;
+  z-index: 1;
+}
+#product-box p {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+#experiment-box {
+  position: relative;
+  display: inline-block;
+  margin-top: 15px;
+  padding: 16px;
+  min-width: 400px;
+  max-width: 100%;
+  text-align: center;
+  color: #555;
+  font-size: 16px;
+  background: #FFF;
+  border: solid 3px #00bfff;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+#experiment-box:before {
+  content: "";
+  position: absolute;
+  top: -24px;
+  left: 53%;
+  margin-left: -8px;
+  border: 12px solid transparent;
+  border-bottom: 12px solid #FFF;
+  z-index: 2;
+}
+#experiment-box:after {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 53%;
+  margin-left: -10px;
+  border: 14px solid transparent;
+  border-bottom: 14px solid #00bfff;
+  z-index: 1;
+}
+#experiment-box p {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+#research-box {
+  position: relative;
+  display: inline-block;
+  margin-top: 15px;
+  padding: 16px;
+  min-width: 400px;
+  max-width: 100%;
+  text-align: center;
+  color: #555;
+  font-size: 16px;
+  background: #FFF;
+  border: solid 3px #00bfff;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+#research-box:before {
+  content: "";
+  position: absolute;
+  top: -24px;
+  left: 70%;
+  margin-left: -8px;
+  border: 12px solid transparent;
+  border-bottom: 12px solid #FFF;
+  z-index: 2;
+}
+#research-box:after {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 70%;
+  margin-left: -10px;
+  border: 14px solid transparent;
+  border-bottom: 14px solid #00bfff;
+  z-index: 1;
+}
+#research-box p {
+  margin: 0;
+  padding: 0;
+}
