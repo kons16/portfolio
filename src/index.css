@@ -1,0 +1,245 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* ページトップ */
+#mylogo {
+  display: block;
+  margin: 10px auto;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  padding: 5px;
+  border: 3px solid #87cc90;
+}
+#myname {
+  display: inline-block;
+  margin-right: 10px;
+}
+#github-icon {
+  width: 30px;
+  height: 30px;
+}
+#career {
+  margin: 0;
+  margin-bottom: 30px;
+}
+#top-image {
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 60%;
+}
+
+
+/* ナビバー */
+#nav-link {
+  font-size: 30px;
+  margin-right: 45px;
+  text-decoration: none;
+  color: #00bfff;
+  transition: all .3s;
+}
+#nav-link:visited {
+  color: #00bfff;
+}
+#nav-link:hover {
+  color: #00ff7f;
+}
+
+
+
+
+/* 各ボックス */
+#skill-box {
+  position: relative;
+  display: inline-block;
+  margin-top: 15px;
+  padding: 16px 16px 0 16px;
+  min-width: 760px;
+  max-width: 100%;
+  text-align: center;
+  color: #555;
+  font-size: 20px;
+  background: #FFF;
+  border: solid 3px #00bfff;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+#skill-box:before {
+  content: "";
+  position: absolute;
+  top: -24px;
+  left: 12%;
+  margin-left: -8px;
+  border: 12px solid transparent;
+  border-bottom: 12px solid #FFF;
+  z-index: 2;
+}
+#skill-box:after {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 12%;
+  margin-left: -10px;
+  border: 14px solid transparent;
+  border-bottom: 14px solid #00bfff;
+  z-index: 1;
+}
+#skill-box p {
+  margin: 0;
+  padding: 0;
+}
+#skills-ul {
+  display: grid;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  grid-template-columns: repeat(3,200px);
+}
+#skills-ul-bottom {
+  display: grid;
+  margin-left: 40px;
+  grid-template-columns: repeat(3,200px);
+}
+#skills-li {
+  width: 100%;
+  text-align: left;
+  font-size: 20px;
+  padding: 8px 0;
+  color: #343434;
+}
+
+#product-box {
+  position: relative;
+  display: inline-block;
+  margin-top: 15px;
+  padding: 16px;
+  min-width: 760px;
+  max-width: 100%;
+  text-align: center;
+  color: #555;
+  font-size: 16px;
+  background: #FFF;
+  border: solid 3px #00bfff;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+#product-box:before {
+  content: "";
+  position: absolute;
+  top: -24px;
+  left: 28%;
+  margin-left: -8px;
+  border: 12px solid transparent;
+  border-bottom: 12px solid #FFF;
+  z-index: 2;
+}
+#product-box:after {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 28%;
+  margin-left: -10px;
+  border: 14px solid transparent;
+  border-bottom: 14px solid #00bfff;
+  z-index: 1;
+}
+#product-box p {
+  margin: 0;
+  padding: 0;
+}
+
+#experiment-box {
+  position: relative;
+  display: inline-block;
+  margin-top: 15px;
+  padding: 16px;
+  min-width: 760px;
+  max-width: 100%;
+  text-align: center;
+  color: #555;
+  font-size: 16px;
+  background: #FFF;
+  border: solid 3px #00bfff;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+#experiment-box:before {
+  content: "";
+  position: absolute;
+  top: -24px;
+  left: 53%;
+  margin-left: -8px;
+  border: 12px solid transparent;
+  border-bottom: 12px solid #FFF;
+  z-index: 2;
+}
+#experiment-box:after {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 53%;
+  margin-left: -10px;
+  border: 14px solid transparent;
+  border-bottom: 14px solid #00bfff;
+  z-index: 1;
+}
+#experiment-box p {
+  margin: 0;
+  padding: 0;
+}
+#experiment-ul {
+  display: grid;
+  margin-left: 40px;
+  grid-template-columns: repeat(1,600px);
+}
+
+#research-box {
+  position: relative;
+  display: inline-block;
+  margin-top: 15px;
+  padding: 16px;
+  min-width: 760px;
+  max-width: 100%;
+  text-align: center;
+  color: #555;
+  font-size: 16px;
+  background: #FFF;
+  border: solid 3px #00bfff;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+#research-box:before {
+  content: "";
+  position: absolute;
+  top: -24px;
+  left: 76%;
+  margin-left: -8px;
+  border: 12px solid transparent;
+  border-bottom: 12px solid #FFF;
+  z-index: 2;
+}
+#research-box:after {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 76%;
+  margin-left: -10px;
+  border: 14px solid transparent;
+  border-bottom: 14px solid #00bfff;
+  z-index: 1;
+}
+#research-box p {
+  margin: 0;
+  padding: 0;
+}
