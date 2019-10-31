@@ -12,26 +12,50 @@ code {
     monospace;
 }
 
+/* ページトップ */
 #mylogo {
-  width: 100px;
-  height: 100px;
+  display: block;
+  margin: 10px auto;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   padding: 5px;
   border: 3px solid #87cc90;
 }
 #myname {
   display: inline-block;
+  height: 35px;
+  margin-right: 10px;
 }
 #github-icon {
   width: 30px;
   height: 30px;
 }
+#career {
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+
+/* ナビバー */
+#nav-link {
+  font-size: 30px;
+  margin-right: 45px;
+  text-decoration: none;
+  color: #00bfff;
+}
+#nav-link:visited {
+  color: #00bfff;
+}
+
+
+/* 各ボックス */
 #skill-box {
   position: relative;
   display: inline-block;
   margin-top: 15px;
   padding: 16px;
-  min-width: 400px;
+  min-width: 760px;
   max-width: 100%;
   text-align: center;
   color: #555;
@@ -45,7 +69,7 @@ code {
   content: "";
   position: absolute;
   top: -24px;
-  left: 27%;
+  left: 12%;
   margin-left: -8px;
   border: 12px solid transparent;
   border-bottom: 12px solid #FFF;
@@ -55,7 +79,7 @@ code {
   content: "";
   position: absolute;
   top: -30px;
-  left: 27%;
+  left: 12%;
   margin-left: -10px;
   border: 14px solid transparent;
   border-bottom: 14px solid #00bfff;
@@ -67,24 +91,23 @@ code {
 }
 #skills-ul {
   display: grid;
-  grid-template-columns: repeat(3,130px);
+  margin-left: 40px;
+  grid-template-columns: repeat(3,200px);
 }
 #skills-li {
   width: 100%;
   text-align: left;
-  font-size: 16px;
+  font-size: 20px;
   padding: 8px 0;
   color: #343434;
 }
-
-
 
 #product-box {
   position: relative;
   display: inline-block;
   margin-top: 15px;
   padding: 16px;
-  min-width: 400px;
+  min-width: 760px;
   max-width: 100%;
   text-align: center;
   color: #555;
@@ -98,7 +121,7 @@ code {
   content: "";
   position: absolute;
   top: -24px;
-  left: 34%;
+  left: 28%;
   margin-left: -8px;
   border: 12px solid transparent;
   border-bottom: 12px solid #FFF;
@@ -108,7 +131,7 @@ code {
   content: "";
   position: absolute;
   top: -30px;
-  left: 34%;
+  left: 28%;
   margin-left: -10px;
   border: 14px solid transparent;
   border-bottom: 14px solid #00bfff;
@@ -119,14 +142,12 @@ code {
   padding: 0;
 }
 
-
-
 #experiment-box {
   position: relative;
   display: inline-block;
   margin-top: 15px;
   padding: 16px;
-  min-width: 400px;
+  min-width: 760px;
   max-width: 100%;
   text-align: center;
   color: #555;
@@ -161,14 +182,12 @@ code {
   padding: 0;
 }
 
-
-
 #research-box {
   position: relative;
   display: inline-block;
   margin-top: 15px;
   padding: 16px;
-  min-width: 400px;
+  min-width: 760px;
   max-width: 100%;
   text-align: center;
   color: #555;
@@ -182,7 +201,7 @@ code {
   content: "";
   position: absolute;
   top: -24px;
-  left: 70%;
+  left: 76%;
   margin-left: -8px;
   border: 12px solid transparent;
   border-bottom: 12px solid #FFF;
@@ -192,7 +211,7 @@ code {
   content: "";
   position: absolute;
   top: -30px;
-  left: 70%;
+  left: 76%;
   margin-left: -10px;
   border: 14px solid transparent;
   border-bottom: 14px solid #00bfff;
