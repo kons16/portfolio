@@ -35,6 +35,12 @@ code {
   margin: 0;
   margin-bottom: 30px;
 }
+#top-image {
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 60%;
+}
 
 
 /* ナビバー */
@@ -59,7 +65,7 @@ code {
   max-width: 100%;
   text-align: center;
   color: #555;
-  font-size: 16px;
+  font-size: 20px;
   background: #FFF;
   border: solid 3px #00bfff;
   box-sizing: border-box;
@@ -92,6 +98,7 @@ code {
 #skills-ul {
   display: grid;
   margin-left: 40px;
+  margin-bottom: 40px;
   grid-template-columns: repeat(3,200px);
 }
 #skills-li {
@@ -180,6 +187,11 @@ code {
 #experiment-box p {
   margin: 0;
   padding: 0;
+}
+#experiment-ul {
+  display: grid;
+  margin-left: 40px;
+  grid-template-columns: repeat(1,600px);
 }
 
 #research-box {
