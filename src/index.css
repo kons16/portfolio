@@ -14,7 +14,6 @@ code {
 
 /* ページトップ */
 #mylogo {
-  display: block;
   margin: 10px auto;
   width: 180px;
   height: 180px;
@@ -23,10 +22,10 @@ code {
   border: 3px solid #87cc90;
 }
 #myname {
-  display: inline-block;
   margin-right: 10px;
 }
 #github-icon {
+  margin-left: 10px;
   width: 30px;
   height: 30px;
 }
