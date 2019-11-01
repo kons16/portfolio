@@ -1,14 +1,14 @@
 import React from 'react';
 
-class Research extends React.Component {
+class About extends React.Component {
   render() {
     return (
       <div>
-        <div id="research-box">
+        <div id="about-box">
         </div>
       </div>
     );
   }
 }
 
-export default Research;
+export default About;

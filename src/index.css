@@ -59,6 +59,45 @@ code {
 
 
 /* 各ボックス */
+#about-box {
+  position: relative;
+  display: inline-block;
+  margin-top: 15px;
+  padding: 16px;
+  min-width: 760px;
+  max-width: 100%;
+  text-align: center;
+  color: #555;
+  font-size: 16px;
+  background: #FFF;
+  border: solid 3px #00bfff;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+#about-box:before {
+  content: "";
+  position: absolute;
+  top: -24px;
+  left: 15%;
+  margin-left: -8px;
+  border: 12px solid transparent;
+  border-bottom: 12px solid #FFF;
+  z-index: 2;
+}
+#about-box:after {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 15%;
+  margin-left: -10px;
+  border: 14px solid transparent;
+  border-bottom: 14px solid #00bfff;
+  z-index: 1;
+}
+#about-box p {
+  margin: 0;
+  padding: 0;
+}
 #skill-box {
   position: relative;
   display: inline-block;
@@ -78,7 +117,7 @@ code {
   content: "";
   position: absolute;
   top: -24px;
-  left: 12%;
+  left: 31%;
   margin-left: -8px;
   border: 12px solid transparent;
   border-bottom: 12px solid #FFF;
@@ -88,7 +127,7 @@ code {
   content: "";
   position: absolute;
   top: -30px;
-  left: 12%;
+  left: 31%;
   margin-left: -10px;
   border: 14px solid transparent;
   border-bottom: 14px solid #00bfff;
@@ -136,7 +175,7 @@ code {
   content: "";
   position: absolute;
   top: -24px;
-  left: 28%;
+  left: 48%;
   margin-left: -8px;
   border: 12px solid transparent;
   border-bottom: 12px solid #FFF;
@@ -146,7 +185,7 @@ code {
   content: "";
   position: absolute;
   top: -30px;
-  left: 28%;
+  left: 48%;
   margin-left: -10px;
   border: 14px solid transparent;
   border-bottom: 14px solid #00bfff;
@@ -176,7 +215,7 @@ code {
   content: "";
   position: absolute;
   top: -24px;
-  left: 53%;
+  left: 72%;
   margin-left: -8px;
   border: 12px solid transparent;
   border-bottom: 12px solid #FFF;
@@ -186,7 +225,7 @@ code {
   content: "";
   position: absolute;
   top: -30px;
-  left: 53%;
+  left: 72%;
   margin-left: -10px;
   border: 14px solid transparent;
   border-bottom: 14px solid #00bfff;
@@ -198,46 +237,16 @@ code {
 }
 #experiment-ul {
   display: grid;
-  margin-left: 40px;
-  grid-template-columns: repeat(1,600px);
+  grid-template-columns: 160px 430px;
 }
-
-#research-box {
-  position: relative;
-  display: inline-block;
-  margin-top: 15px;
-  padding: 16px;
-  min-width: 760px;
-  max-width: 100%;
-  text-align: center;
-  color: #555;
-  font-size: 16px;
-  background: #FFF;
-  border: solid 3px #00bfff;
-  box-sizing: border-box;
-  border-radius: 10px;
+#experiment-li-company {
+  font-weight: bold;
+  font-size: 20px;
 }
-#research-box:before {
-  content: "";
-  position: absolute;
-  top: -24px;
-  left: 76%;
-  margin-left: -8px;
-  border: 12px solid transparent;
-  border-bottom: 12px solid #FFF;
-  z-index: 2;
+#experiment-li-detail {
+  margin-top: 10px;
+  margin-bottom: 45px;
 }
-#research-box:after {
-  content: "";
-  position: absolute;
-  top: -30px;
-  left: 76%;
-  margin-left: -10px;
-  border: 14px solid transparent;
-  border-bottom: 14px solid #00bfff;
-  z-index: 1;
-}
-#research-box p {
-  margin: 0;
-  padding: 0;
+#experiment-li-day {
+  font-weight: bold;
 }

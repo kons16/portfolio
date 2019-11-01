@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 import Experiment from './components/Experiment';
 import Product from './components/Product';
 import Skill from './components/Skill';
-import Research from './components/Research';
+import About from './components/About';
 
 class App extends Component {
   render() {
@@ -16,11 +16,10 @@ class App extends Component {
           <div>
             <Top />
             <Navbar />
-
             <Route path='/Experiment' component={Experiment}/>
             <Route path='/Product' component={Product}/>
             <Route path='/Skill' component={Skill}/>
-            <Route path='/Research' component={Research}/>
+            <Route path='/About' component={About}/>
           </div>
         </Router>
       </div>
