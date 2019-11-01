@@ -11,7 +11,7 @@ class Skill extends React.Component {
               <li id="skills-li">Ruby</li>
               <li id="skills-li">PHP</li>
               <li id="skills-li">JavaScript</li>
-              <li id="skills-li">C/C#</li>
+              <li id="skills-li">C</li>
               <li id="skills-li">Java</li>
             </ul>
             <ul id="skills-ul">
@@ -19,7 +19,6 @@ class Skill extends React.Component {
               <li id="skills-li">Flask</li>
               <li id="skills-li">Laravel</li>
               <li id="skills-li">React</li>
-              <li id="skills-li">ASP.NET</li>
             </ul>
             <ul id="skills-ul">
               <li id="skills-li">AWS(EC2, S3)</li>
