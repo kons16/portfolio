@@ -20,7 +20,7 @@ class Skill extends React.Component {
               <li id="skills-li">Laravel</li>
               <li id="skills-li">React</li>
             </ul>
-            <ul id="skills-ul">
+            <ul id="skills-ul-bottom">
               <li id="skills-li">AWS(EC2, S3)</li>
             </ul>
           </div>

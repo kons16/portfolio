@@ -24,7 +24,6 @@ code {
 }
 #myname {
   display: inline-block;
-  height: 35px;
   margin-right: 10px;
 }
 #github-icon {
@@ -49,9 +48,13 @@ code {
   margin-right: 45px;
   text-decoration: none;
   color: #00bfff;
+  transition: all .3s;
 }
 #nav-link:visited {
   color: #00bfff;
+}
+#nav-link:hover {
+  color: #00ff7f;
 }
 
 
@@ -60,7 +63,7 @@ code {
   position: relative;
   display: inline-block;
   margin-top: 15px;
-  padding: 16px;
+  padding: 16px 16px 0 16px;
   min-width: 760px;
   max-width: 100%;
   text-align: center;
@@ -98,7 +101,12 @@ code {
 #skills-ul {
   display: grid;
   margin-left: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+  grid-template-columns: repeat(3,200px);
+}
+#skills-ul-bottom {
+  display: grid;
+  margin-left: 40px;
   grid-template-columns: repeat(3,200px);
 }
 #skills-li {
