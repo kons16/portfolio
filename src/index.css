@@ -161,7 +161,7 @@ code {
   display: inline-block;
   margin-top: 15px;
   padding: 16px;
-  min-width: 760px;
+  min-width: 850px;
   max-width: 100%;
   text-align: center;
   color: #555;
@@ -195,6 +195,25 @@ code {
   margin: 0;
   padding: 0;
 }
+#product-ul {
+  display: grid;
+  grid-template-columns: 160px 500px;
+}
+#product-li-icon {
+  font-weight: bold;
+}
+#product-li-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+#product-li-detail {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#product-li-use {
+  margin-bottom: 40px;
+}
+
 
 #experiment-box {
   position: relative;
@@ -237,7 +256,10 @@ code {
 }
 #experiment-ul {
   display: grid;
-  grid-template-columns: 160px 430px;
+  grid-template-columns: 160px 439px;
+}
+#experiment-li-day {
+  font-weight: bold;
 }
 #experiment-li-company {
   font-weight: bold;
@@ -247,6 +269,6 @@ code {
   margin-top: 10px;
   margin-bottom: 45px;
 }
-#experiment-li-day {
-  font-weight: bold;
+#experiment-li-detail-last {
+  margin-top: 10px;
 }
