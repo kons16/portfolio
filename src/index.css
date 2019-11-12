@@ -42,6 +42,9 @@ code {
 
 
 /* ナビバー */
+#navbar-box {
+  margin-left: 90px;
+}
 #nav-link {
   font-size: 30px;
   margin-right: 45px;
@@ -97,6 +100,11 @@ code {
   margin: 0;
   padding: 0;
 }
+#about-detail {
+  text-align:left;
+  font-weight: bold;
+}
+
 #skill-box {
   position: relative;
   display: inline-block;
@@ -155,7 +163,7 @@ code {
   color: #343434;
 }
 
-#product-box {
+#works-box {
   position: relative;
   display: inline-block;
   margin-top: 15px;
@@ -170,7 +178,7 @@ code {
   box-sizing: border-box;
   border-radius: 10px;
 }
-#product-box:before {
+#works-box:before {
   content: "";
   position: absolute;
   top: -24px;
@@ -180,7 +188,7 @@ code {
   border-bottom: 12px solid #FFF;
   z-index: 2;
 }
-#product-box:after {
+#works-box:after {
   content: "";
   position: absolute;
   top: -30px;
@@ -190,27 +198,33 @@ code {
   border-bottom: 14px solid #00bfff;
   z-index: 1;
 }
-#product-box p {
+#works-box p {
   margin: 0;
   padding: 0;
 }
-#product-ul {
+#works-ul {
   display: grid;
-  grid-template-columns: 160px 500px;
+  grid-template-columns: 210px 540px;
 }
-#product-li-icon {
+#works-icon {
+  width: 220px;
+  height: 150px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+#works-li-icon {
   font-weight: bold;
 }
-#product-li-title {
+#works-li-title {
   font-weight: bold;
   font-size: 20px;
 }
-#product-li-detail {
-  margin-top: 10px;
-  margin-bottom: 10px;
+#works-li-detail {
+  text-align:left;
+  margin: 10px 0 10px 40px;
 }
-#product-li-use {
-  margin-bottom: 40px;
+#works-li-use {
+  margin-bottom: 50px;
 }
 
 

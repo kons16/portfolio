@@ -5,12 +5,12 @@ class Top extends React.Component {
     return (
       <div>
         <a href="/">
-          <img src={`${process.env.PUBLIC_URL}/debudori.png`} id="mylogo" />
+          <img src={`${process.env.PUBLIC_URL}/debudori.png`} id="mylogo" alt="mylogo"/>
         </a>
         <h1 id="myname">
           Kono Shinji
-          <a href="https://github.com/kons16" target="_blank">
-            <img src={`${process.env.PUBLIC_URL}/octcat64.png`} id="github-icon" />
+          <a href="https://github.com/kons16" target="_blank" rel="noreferrer noopener">
+            <img src={`${process.env.PUBLIC_URL}/octcat64.png`} id="github-icon" alt="github-icon"/>
           </a>
         </h1>
         <h3 id="career">茨城大学工学部情報工学科4年</h3>

@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Top from './components/Top';
 import Navbar from './components/Navbar';
-import Experiment from './components/Experiment';
-import Product from './components/Product';
-import Skill from './components/Skill';
+import Experiences from './components/Experiences';
+import Works from './components/Works';
+import Skills from './components/Skills';
 import About from './components/About';
 
 class App extends Component {
@@ -16,9 +16,9 @@ class App extends Component {
           <div>
             <Top />
             <Navbar />
-            <Route path='/Experiment' component={Experiment}/>
-            <Route path='/Product' component={Product}/>
-            <Route path='/Skill' component={Skill}/>
+            <Route path='/Experiences' component={Experiences}/>
+            <Route path='/Works' component={Works}/>
+            <Route path='/Skills' component={Skills}/>
             <Route path='/About' component={About}/>
           </div>
         </Router>

@@ -5,6 +5,8 @@ class About extends React.Component {
     return (
       <div>
         <div id="about-box">
+          <div id="about-detail">
+          </div>
         </div>
       </div>
     );

@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Skill extends React.Component {
+class Skills extends React.Component {
   render() {
     return (
       <div>
@@ -9,7 +9,6 @@ class Skill extends React.Component {
             <ul id="skills-ul">
               <li id="skills-li">Python</li>
               <li id="skills-li">Ruby</li>
-              <li id="skills-li">PHP</li>
               <li id="skills-li">JavaScript</li>
               <li id="skills-li">C</li>
               <li id="skills-li">Java</li>
@@ -17,11 +16,11 @@ class Skill extends React.Component {
             <ul id="skills-ul">
               <li id="skills-li">Ruby on Rails</li>
               <li id="skills-li">Flask</li>
-              <li id="skills-li">Laravel</li>
               <li id="skills-li">React</li>
             </ul>
             <ul id="skills-ul-bottom">
               <li id="skills-li">AWS(EC2, S3)</li>
+              <li id="skills-li">Firebase<br/>(Firestore, Hosting)</li>
             </ul>
           </div>
         </div>
@@ -30,4 +29,4 @@ class Skill extends React.Component {
   }
 }
 
-export default Skill;
+export default Skills;
