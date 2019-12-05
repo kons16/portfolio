@@ -10,10 +10,10 @@ class Skills extends React.Component {
               <li id="skills-li">Python</li>
               <li id="skills-li">Ruby</li>
               <li id="skills-li">JavaScript</li>
+              <li id="skills-li">Java</li>
             </ul>
             <ul id="skills-ul">
               <li id="skills-li">Ruby on Rails</li>
-              <li id="skills-li">Flask</li>
               <li id="skills-li">React</li>
             </ul>
             <ul id="skills-ul-bottom">
