@@ -16,10 +16,10 @@ class App extends Component {
           <div>
             <Top />
             <Navbar />
-            <Route path='/Intern' component={Intern}/>
-            <Route path='/Works' component={Works}/>
-            <Route path='/Skills' component={Skills}/>
-            <Route path='/About' component={About}/>
+            <Route path='/portfolio/Intern' component={Intern}/>
+            <Route path='/portfolio/Works' component={Works}/>
+            <Route path='/portfolio/Skills' component={Skills}/>
+            <Route path='/portfolio/About' component={About}/>
           </div>
         </Router>
       </div>
