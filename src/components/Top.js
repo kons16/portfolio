@@ -4,9 +4,7 @@ class Top extends React.Component {
   render() {
     return (
       <div>
-        <a href="/">
-          <img src={`${process.env.PUBLIC_URL}/debudori.png`} id="mylogo" alt="mylogo"/>
-        </a>
+        <img src={`${process.env.PUBLIC_URL}/manbo.jpg`} id="mylogo" alt="my-icon"/>
         <h1 id="myname">
           Kono Shinji
           <a href="https://github.com/kons16" target="_blank" rel="noreferrer noopener">
