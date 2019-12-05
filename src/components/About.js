@@ -16,7 +16,7 @@ class About extends React.Component {
               Web開発ではRubyやJavaScriptを用いることが多いです。<br/><br/>
 
               インターンでは大学で学ぶことのできないWeb開発を中心に、<br/>
-              フロント/バックエンド、幅広い知識を習得したいと考えています。
+              フロント/バックエンド の知識を習得したいと考えています。
             </p>
           </div>
         </div>
