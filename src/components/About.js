@@ -7,8 +7,8 @@ class About extends React.Component {
         <div id="about-box">
           <div id="about-detail">
             <p>
-              茨城大学工学部情報工学科4年です。<br />
-              研究では自然言語処理をテーマにしています。<br />
+              茨城大学工学部情報工学科の4年生です。<br />
+              研究では自然言語処理での、短単位からの単語生成をテーマにしています。<br />
               個人の勉強としてはWeb開発に興味があるため、Railsなどのフレームワークを用いて<br/>
               Webアプリの開発を行っています。<br/><br/>
 
