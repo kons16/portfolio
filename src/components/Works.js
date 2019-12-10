@@ -60,7 +60,7 @@ class Works extends React.Component {
               <div id="works-li"></div>
               <div id="works-li-detail">
                 このサイトです.<br />Reactを使用しています.
-                <a href="https://github.com/kons16/kons16.github.io" target="_blank" rel="noreferrer noopener">[GitHub]</a>
+                <a href="https://github.com/kons16/portfolio" target="_blank" rel="noreferrer noopener">[GitHub]</a>
               </div>
               <div id="works-li"></div>
               <div id="works-li-use-last">
