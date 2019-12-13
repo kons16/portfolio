@@ -1,10 +1,6 @@
 import React from 'react';
 
 class Works extends React.Component {
-  componentDidUpdate(){
-    console.log("aa");
-  }
-
   render() {
     return (
       <div>
