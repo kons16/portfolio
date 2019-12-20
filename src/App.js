@@ -18,7 +18,7 @@ class App extends Component {
             <Navbar />
             <Route path='/Intern' component={Intern}/>
             <Route path='/Works' component={Works}/>
-            <Route path='/Skills' component={Skills}/>
+            <Route path='/Studying' component={Skills}/>
             <Route path='/About' component={About}/>
           </div>
         </Router>

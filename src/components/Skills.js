@@ -10,15 +10,14 @@ class Skills extends React.Component {
               <li id="skills-li">Python</li>
               <li id="skills-li">Ruby</li>
               <li id="skills-li">JavaScript</li>
-              <li id="skills-li">Java</li>
             </ul>
             <ul id="skills-ul">
               <li id="skills-li">Ruby on Rails</li>
               <li id="skills-li">React</li>
             </ul>
             <ul id="skills-ul-bottom">
-              <li id="skills-li">AWS(EC2, S3)</li>
-              <li id="skills-li">Firebase<br/>(Firestore, Hosting)</li>
+              <li id="skills-li">AWS</li>
+              <li id="skills-li">Firebase</li>
             </ul>
           </div>
         </div>
