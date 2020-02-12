@@ -21,7 +21,7 @@ class Works extends React.Component {
               </div>
               <div id="works-li"></div>
               <div id="works-li-use">
-                使用した技術: Ruby on Rails, Flask, MySQL, EC2, S3
+                使用した技術: Ruby on Rails, Flask, MySQL, Docker, AWS
              </div>
               <div id="works-li"></div>
 
