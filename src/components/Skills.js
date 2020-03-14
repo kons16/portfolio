@@ -10,6 +10,7 @@ class Skills extends React.Component {
               <li id="skills-li">Python</li>
               <li id="skills-li">Ruby</li>
               <li id="skills-li">JavaScript</li>
+              <li id="skills-li">Kotlin</li>
             </ul>
             <ul id="skills-ul">
               <li id="skills-li">Ruby on Rails</li>
@@ -17,7 +18,6 @@ class Skills extends React.Component {
             </ul>
             <ul id="skills-ul-bottom">
               <li id="skills-li">AWS</li>
-              <li id="skills-li">Firebase</li>
             </ul>
           </div>
         </div>
