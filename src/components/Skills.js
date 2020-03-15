@@ -7,17 +7,38 @@ class Skills extends React.Component {
         <div id="skill-box">
           <div id="skills">
             <ul id="skills-ul">
-              <li id="skills-li">Python</li>
-              <li id="skills-li">Ruby</li>
-              <li id="skills-li">JavaScript</li>
-              <li id="skills-li">Kotlin</li>
+              <li id="skills-li">
+                <div id="skills-title">Python</div>
+                <div id="skills-detail">2年 研究(自然言語処理/機械学習)、趣味(Webアプリ・スクレイピング等)</div>
+              </li>
+              <li id="skills-li">
+                <div id="skills-title">Ruby</div>
+                <div id="skills-detail">1年半 Webアプリ</div>
+              </li>
+              <li id="skills-li">
+                <div id="skills-title">JavaScript</div>
+                <div id="skills-detail">1年半 Webアプリ</div>
+              </li>
+              <li id="skills-li">
+                <div id="skills-title">Kotlin</div>
+                <div id="skills-detail">1ヶ月 インターンでのAndroidアプリ開発</div>
+              </li>
             </ul>
             <ul id="skills-ul">
-              <li id="skills-li">Ruby on Rails</li>
-              <li id="skills-li">React</li>
+              <li id="skills-li">
+                <div id="skills-title">Ruby on Rails</div>
+                <div id="skills-detail">趣味・業務で使用</div>
+              </li>
+              <li id="skills-li">
+                <div id="skills-title">React</div>
+                <div id="skills-detail">ポートフォリオサイトの開発など</div>
+              </li>
             </ul>
             <ul id="skills-ul-bottom">
-              <li id="skills-li">AWS</li>
+              <li id="skills-li">
+                <div id="skills-title">AWS</div>
+                <div id="skills-detail">EC2, Lambda, S3, Route53などを趣味で使用</div>
+              </li>
             </ul>
           </div>
         </div>
