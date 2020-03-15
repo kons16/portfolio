@@ -30,7 +30,7 @@ class Intern extends React.Component {
                 フロントはJavaScript, サーバーサイドはJava(SpringBoot,uroboroSQL)を利用したWebアプリの開発.
               </a>
 
-              <a id="experiment-li-day">2019年2月〜3月</a>
+              <a id="experiment-li-day">2020年2月〜3月</a>
               <a id="experiment-li-company">ドワンゴ 就業型インターン</a>
               <a id="experiment-li"></a>
               <a id="experiment-li-detail-last">
