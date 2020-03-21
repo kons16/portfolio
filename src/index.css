@@ -130,7 +130,7 @@ code {
   position: relative;
   display: inline-block;
   margin-top: 15px;
-  padding: 16px 16px 0 16px;
+  padding: 0 16px 0 16px;
   min-width: 700px;
   max-width: 100%;
   text-align: center;
@@ -307,10 +307,12 @@ code {
   font-size: 20px;
 }
 #experiment-li-detail {
+  text-align: left;
   margin-top: 10px;
   margin-bottom: 50px;
 }
 #experiment-li-detail-last {
+  text-align: left;
   margin-top: 10px;
 }
 
