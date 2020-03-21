@@ -33,8 +33,15 @@ class Intern extends React.Component {
               <a id="experiment-li-day">2020年2月〜3月</a>
               <a id="experiment-li-company">ドワンゴ 就業型インターン</a>
               <a id="experiment-li"></a>
-              <a id="experiment-li-detail-last">
+              <a id="experiment-li-detail">
                 kotlinを使ったドワンゴジェイピー(Androidアプリ)の開発.
+              </a>
+
+              <a id="experiment-li-day">2020年3月</a>
+              <a id="experiment-li-company">サイバーエージェント ArchitectureCompetition</a>
+              <a id="experiment-li"></a>
+              <a id="experiment-li-detail-last">
+                可用性や保守性、大規模なアクセスにも耐えうる架空サービスのアーキテクチャーを、AWSを使って設計しました。
               </a>
 
             </ul>

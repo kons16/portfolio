@@ -13,11 +13,11 @@ class Skills extends React.Component {
               </li>
               <li id="skills-li">
                 <div id="skills-title">Ruby</div>
-                <div id="skills-detail">1年半 Webアプリ</div>
+                <div id="skills-detail">1年半 主にWebアプリ開発に使用</div>
               </li>
               <li id="skills-li">
                 <div id="skills-title">JavaScript</div>
-                <div id="skills-detail">1年半 Webアプリ</div>
+                <div id="skills-detail">1年半 Webアプリのフロントに使用</div>
               </li>
               <li id="skills-li">
                 <div id="skills-title">Kotlin</div>
@@ -37,7 +37,10 @@ class Skills extends React.Component {
             <ul id="skills-ul-bottom">
               <li id="skills-li">
                 <div id="skills-title">AWS</div>
-                <div id="skills-detail">EC2, Lambda, S3, Route53などを趣味で使用</div>
+                <div id="skills-detail">
+                  インターンでAWSを使った設計を行いました。
+                  EC2, Lambda, S3, Route53などを趣味で使用
+                </div>
               </li>
             </ul>
           </div>
