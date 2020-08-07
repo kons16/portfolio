@@ -9,7 +9,7 @@ class Skills extends React.Component {
             <ul id="skills-ul">
               <li id="skills-li">
                 <div id="skills-title">Python</div>
-                <div id="skills-detail">2年 研究(自然言語処理/機械学習)、趣味(Webアプリ等)</div>
+                <div id="skills-detail">研究(自然言語処理/機械学習)と趣味(Webアプリ等)に使用</div>
               </li>
               <li id="skills-li">
                 <div id="skills-title">Ruby</div>
@@ -35,7 +35,7 @@ class Skills extends React.Component {
               </li>
               <li id="skills-li">
                 <div id="skills-title">React</div>
-                <div id="skills-detail">ポートフォリオサイトの開発など</div>
+                <div id="skills-detail">ポートフォリオサイト, アンケートアプリなど</div>
               </li>
             </ul>
             <ul id="skills-ul-bottom">
