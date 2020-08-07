@@ -9,19 +9,23 @@ class Skills extends React.Component {
             <ul id="skills-ul">
               <li id="skills-li">
                 <div id="skills-title">Python</div>
-                <div id="skills-detail">2年 研究(自然言語処理/機械学習)、趣味(Webアプリ・スクレイピング等)</div>
+                <div id="skills-detail">研究(自然言語処理/機械学習), 趣味(Webアプリ・スクレイピング等)</div>
               </li>
               <li id="skills-li">
                 <div id="skills-title">Ruby</div>
-                <div id="skills-detail">1年半 主にWebアプリ開発に使用</div>
+                <div id="skills-detail">主にRailsを使ったWebアプリ開発に使用</div>
               </li>
               <li id="skills-li">
                 <div id="skills-title">JavaScript</div>
-                <div id="skills-detail">1年半 Webアプリのフロントに使用</div>
+                <div id="skills-detail">ReactなどのWebアプリのフロントに使用</div>
               </li>
               <li id="skills-li">
                 <div id="skills-title">Kotlin</div>
-                <div id="skills-detail">1ヶ月 インターンでのAndroidアプリ開発</div>
+                <div id="skills-detail">インターンでのAndroidアプリ開発</div>
+              </li>
+              <li id="skills-li">
+                <div id="skills-title">Go</div>
+                <div id="skills-detail">2020年4月〜。Echoを使ったWebアプリ開発</div>
               </li>
             </ul>
             <ul id="skills-ul">
