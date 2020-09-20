@@ -45,14 +45,14 @@ class Intern extends React.Component {
               </a>
 
               <a id="experiment-li-day">2020年8月</a>
-              <a id="experiment-li-company">はてなインターン2020</a>
+              <a id="experiment-li-company">はてな インターン2020</a>
               <a id="experiment-li"></a>
               <a id="experiment-li-detail">
                 Go+k8sで動いているブログサービスに, gRPCで通信する<br/>マイクロサービスを追加。
               </a>
 
               <a id="experiment-li-day">2020年9月</a>
-              <a id="experiment-li-company">ヤフー</a>
+              <a id="experiment-li-company">ヤフー 2020 Summer Internship</a>
               <a id="experiment-li"></a>
               <a id="experiment-li-detail">
                 Yahoo!ショッピングのトップページ改善に関する検証と, <br/>チーム開発(node,html/css)。
