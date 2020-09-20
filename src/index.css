@@ -34,7 +34,6 @@ code {
   margin-bottom: 30px;
 }
 #top-image {
-  background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 60%;
@@ -180,7 +179,7 @@ code {
   width: 100%;
   text-align: left;
   padding: 8px 0;
-  color: #343434;
+  color: #555;
 }
 #skills-title {
   font-size: 23px;

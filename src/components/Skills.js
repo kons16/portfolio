@@ -12,6 +12,10 @@ class Skills extends React.Component {
                 <div id="skills-detail">研究(自然言語処理/機械学習)と趣味(Webアプリ等)に使用</div>
               </li>
               <li id="skills-li">
+                <div id="skills-title">Go</div>
+                <div id="skills-detail">2020年4月〜。Echoを使ったWebアプリ開発やインターンで使用</div>
+              </li>
+              <li id="skills-li">
                 <div id="skills-title">Ruby</div>
                 <div id="skills-detail">主にRailsを使ったWebアプリ開発に使用</div>
               </li>
@@ -22,29 +26,6 @@ class Skills extends React.Component {
               <li id="skills-li">
                 <div id="skills-title">Kotlin</div>
                 <div id="skills-detail">インターンでのAndroidアプリ開発</div>
-              </li>
-              <li id="skills-li">
-                <div id="skills-title">Go</div>
-                <div id="skills-detail">2020年4月〜。Echoを使ったWebアプリ開発</div>
-              </li>
-            </ul>
-            <ul id="skills-ul">
-              <li id="skills-li">
-                <div id="skills-title">Ruby on Rails</div>
-                <div id="skills-detail">趣味・業務で使用</div>
-              </li>
-              <li id="skills-li">
-                <div id="skills-title">React</div>
-                <div id="skills-detail">ポートフォリオサイト, アンケートアプリなど</div>
-              </li>
-            </ul>
-            <ul id="skills-ul-bottom">
-              <li id="skills-li">
-                <div id="skills-title">AWS</div>
-                <div id="skills-detail">
-                  インターンでAWSを使った設計を行いました。
-                  EC2, Lambda, S3, Route53などを趣味で使用
-                </div>
               </li>
             </ul>
           </div>

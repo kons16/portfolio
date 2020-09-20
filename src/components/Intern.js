@@ -20,7 +20,7 @@ class Intern extends React.Component {
               <a id="experiment-li-company">ミクシィ git challenge #11</a>
               <a id="experiment-li"></a>
               <a id="experiment-li-detail">
-                gitに関連する問題を解いていく競技型のイベントに参加しました。
+                gitに関連する問題を解いていく競技型のイベントに参加。
               </a>
 
               <a id="experiment-li-day">2019年9月</a>
@@ -40,8 +40,29 @@ class Intern extends React.Component {
               <a id="experiment-li-day">2020年3月</a>
               <a id="experiment-li-company">サイバーエージェント ArchitectureCompetition</a>
               <a id="experiment-li"></a>
+              <a id="experiment-li-detail">
+                可用性や保守性、大規模なアクセスにも耐えうる架空サービスのアーキテクチャーを、AWSを使って設計。
+              </a>
+
+              <a id="experiment-li-day">2020年8月</a>
+              <a id="experiment-li-company">はてなインターン2020</a>
+              <a id="experiment-li"></a>
+              <a id="experiment-li-detail">
+                Go+k8sで動いているブログサービスに, gRPCで通信する<br/>マイクロサービスを追加。
+              </a>
+
+              <a id="experiment-li-day">2020年9月</a>
+              <a id="experiment-li-company">ヤフー</a>
+              <a id="experiment-li"></a>
+              <a id="experiment-li-detail">
+                Yahoo!ショッピングのトップページ改善に関する検証と, <br/>チーム開発(node,html/css)。
+              </a>
+
+              <a id="experiment-li-day">2020年9月</a>
+              <a id="experiment-li-company">DMM GUILDインターン</a>
+              <a id="experiment-li"></a>
               <a id="experiment-li-detail-last">
-                可用性や保守性、大規模なアクセスにも耐えうる架空サービスのアーキテクチャーを、AWSを使って設計しました。
+                AWS(CF,S3,CFn)周りの設定, aws-sdk-goを使ったパケージ開発, Go+LambdaでのDDD開発。
               </a>
 
             </ul>
