@@ -4,3 +4,11 @@ code {
   font-family: courier, monospace;
   padding: 0 3px;
 }
+
+#make-1 {
+  display: flex;
+}
+
+#make-1-content {
+  margin-left: 20px;
+}
